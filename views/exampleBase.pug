@@ -1,0 +1,22 @@
+doctype html
+
+html
+
+	head
+		//-string interpolation in pug
+		title Mitours #{tour}
+		link(rel='stylesheet' href='css/style.css')
+
+		link(rel='shortcut icon' type='image/png' href='img/favicon.png')
+	body
+		h1= tour
+		h2=user.toUpperCase()
+		//h1 The Park Camper html coment
+
+		//-h1 The Park Camper html coment pug comment
+
+		- const x = 9;
+		h2 = 2*x
+
+		p This is just some text		
+
